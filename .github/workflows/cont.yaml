@@ -8,6 +8,8 @@ on:
 jobs:
   commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: 23f2003751@ds.study.iitm.ac.in
         uses: actions/checkout@v4
